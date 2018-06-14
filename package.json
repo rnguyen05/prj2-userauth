@@ -1,0 +1,33 @@
+{
+  "name": "prj2-userauth",
+  "version": "1.0.0",
+  "description": "User Authentications using passport js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnguyen05/prj2-userauth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnguyen05/prj2-userauth/issues"
+  },
+  "homepage": "https://github.com/rnguyen05/prj2-userauth#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "connect-ensure-login": "^0.1.1",
+    "consolidate": "^0.15.1",
+    "cookie-parser": "^1.3.5",
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "morgan": "^1.6.1",
+    "passport": "^0.2.2",
+    "passport-facebook": "^2.0.0",
+    "passport-local": "^1.0.0"
+  }
+}
