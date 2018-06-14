@@ -10,10 +10,11 @@ var loStrategy = require('passport-local').Strategy;
 var db = require('./db');
 
 //Facebook
+//'http://localhost:3000/login/facebook/return'
 passport.use(new fbStrategy({
     clientID: "202065647087620",
     clientSecret: "77c213b28e805272002ed465854d3cca",
-    callbackURL: 'http://localhost:3000/login/facebook/return'
+    callbackURL: "https://prj2userauth.herokuapp.com/"
   },
   function(accessToken, refreshToken, profile, cb) {
     return cb(null, profile);
